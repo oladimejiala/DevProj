@@ -1,0 +1,138 @@
+header {
+  background-blend-mode: soft-light;
+  background-origin: content-box;
+  background-clip: border-box;
+  background-attachment: fixed;
+  text-align: left;
+  background-color: darkslategrey;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: auto; /* Full-height: remove this if you want "auto" height */
+  width: 30%; /* Set the width of the sidebar */
+  position: right; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 50%; /* Stay at the top */
+  left: 10px;
+  background-color: rgba(219, 146, 63, 0.808); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  color: antiquewhite;
+  
+}
+
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+body{
+  background-color:rgb(238, 229, 229);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  align-self: stretch;
+  text-justify: auto;
+  padding: 40px, 20px, 40px, 20px;
+
+
+}
+
+.link a {
+  background-color: rgb(1, 1, 19);
+  color: aliceblue;
+  display: grid;
+}
+
+.container {
+  font-display: 20px;
+  background-origin: padding-box;
+  flood-color: cornflowerblue;
+  -webkit-padding-start: 10px;
+  font-family: sans-serif;
+  align-content: flex-start;
+}
+
+Menu{
+  nav-down: initial;
+  nav-index: initial;
+  behavior: inherit;
+  list-style-position: inside;
+}
+
+h1, h2, h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  padding: 10px, 20px 40px;
+  scale: 5%, 10%;
+  background-color: rgb(11, 15, 3);
+  font-optical-sizing: 20%;
+}
+
+/* This is the navigation bar located at the topmost 
+part of the page*/
+.navbar {
+  border-right-style: groove;
+  border-color: rgb(35, 75, 73);
+  background-position-y: top;
+  background-size: contain;
+  animation-play-state: running;
+  display: table-row-group;
+  color: bisque;
+}
+/* table showing my academic qualification*/
+table {
+  table-layout: auto;
+  -o-table-baseline: inherit;
+  scroll-padding-block: 50px;
+  text-align: center;
+  font-size-adjust: inherit;
+  border-block-color: white;
+  outline-style: hidden;
+  display: inline-table;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration-style: solid;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+}
+
+/* The footer section of the index page */
+
+footer {
+  font-optical-sizing: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-clip: border-box;
+  background-image: -moz-linear-gradient();
+  background-color: rgba(46, 43, 43, 0.993);
+  padding: 10px, 20px, 10px, 20px;
+  color: azure;
+
+}
+
+div {
+  background-color: inherit;
+  display: inline-block;
+  
+}
