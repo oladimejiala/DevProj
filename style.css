@@ -1,9 +1,16 @@
+<<<<<<< Updated upstream
 header {
   background-blend-mode: soft-light;
   background-origin: content-box;
   background-clip: border-box;
   background-attachment: fixed;
   text-align: left;
+=======
+/*--------------------the head section----------------------------------- */
+header {
+  background: soft-light;
+   text-align: left;
+>>>>>>> Stashed changes
   background-color: darkslategrey;
 }
 
@@ -19,6 +26,7 @@ header {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
   color: antiquewhite;
+<<<<<<< Updated upstream
   
 }
 
@@ -26,6 +34,47 @@ header {
   width: 100%; /* Full-width */
   background-color: #555; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
+=======
+  display:inline-block;
+
+}
+/* this tab takes care of the about me lis and other links about me after the professional summary */
+
+ .tabs{ 
+   background-color:tomato;
+   border: 5px thin blue;
+   padding:10px;
+   margin: auto;
+   width: auto;
+   display: inline-block;
+  }
+
+/* ---------------------the body section--------------------------------- */
+body{
+  background-color:rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  align-self: stretch;
+  text-justify: auto;
+  padding: 40px, 20px, 40px, 20px;
+
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  background-color: beige;
+  font-weight: 100;
+  padding: 10px;
+  border: 5px hidden lightblue;
+  -ms-text-align-last: justify;
+}
+.icon-bar {
+  width: 25%; /* Full-width */
+  background-color: rgb(148, 145, 145); /* Dark-grey background */
+  /* Overflow due to float */
+  margin: auto;
+  padding: 10px;
+  height: min-content;
+>>>>>>> Stashed changes
 }
 
 .icon-bar a {
@@ -45,6 +94,7 @@ header {
 .active {
   background-color: #4CAF50; /* Add an active/current color */
 }
+<<<<<<< Updated upstream
 body{
   background-color:rgb(238, 229, 229);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -58,6 +108,12 @@ body{
   background-color: rgb(1, 1, 19);
   color: aliceblue;
   display: grid;
+=======
+.link a {
+  color: #000000;
+  display: inline-block;
+
+>>>>>>> Stashed changes
 }
 
 .container {
@@ -79,9 +135,18 @@ Menu{
 h1, h2, h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
+<<<<<<< Updated upstream
   padding: 10px, 20px 40px;
   scale: 5%, 10%;
   background-color: rgb(11, 15, 3);
+=======
+  border: 10px thick greenyellow;
+  padding: 10px;
+  margin: 10px;
+  width: auto;
+  scale: 5%, 10%;
+  background-color:#000000;
+>>>>>>> Stashed changes
   font-optical-sizing: 20%;
 }
 
@@ -120,6 +185,7 @@ table {
 /* The footer section of the index page */
 
 footer {
+<<<<<<< Updated upstream
   font-optical-sizing: small;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-clip: border-box;
@@ -129,9 +195,35 @@ footer {
   color: azure;
 
 }
+=======
+  font-optical-sizing: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  background-color: violet;
+  padding: 20px;
+  text-size-adjust: em1;
+  display: inline-flexbox;
+  }
+>>>>>>> Stashed changes
 
 div {
   background-color: inherit;
   display: inline-block;
   
 }
+<<<<<<< Updated upstream
+=======
+
+.div-title {
+  color: antiquewhite;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  font-style: italic;
+  background-color: rgb(1, 2, 51);
+  margin: auto;
+  padding: 50px;
+  width: 100%;
+  height: inherit;
+  display: block;
+}
+>>>>>>> Stashed changes

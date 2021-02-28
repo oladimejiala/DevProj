@@ -1,0 +1,38 @@
+{
+  
+ "name": "myapp.js",
+  
+ "version": "1.0.0",
+  
+ "description": "my trial app in node",
+  
+ "main": "index.js",
+  
+ "scripts": {
+    
+    "test": "$hola"
+  
+},
+  "repository": {
+    
+  "type": "git",
+    
+  "url": "git+https://github.com/oladimejiala/DevProj.git"
+  
+},
+  "keywords": [
+    
+    "parasitech"
+  
+],
+  "author": "amta",
+  
+    "license": "SEE LICENCE IN myapp.js",
+  
+    "bugs": {
+    
+    "url": "https://github.com/oladimejiala/DevProj/issues"
+  
+},
+  "homepage": "https://github.com/oladimejiala/DevProj#readme"
+}
