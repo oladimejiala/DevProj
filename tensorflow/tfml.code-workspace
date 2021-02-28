@@ -1,0 +1,12 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
+    "sqltools.connections": []
+  }
+}
